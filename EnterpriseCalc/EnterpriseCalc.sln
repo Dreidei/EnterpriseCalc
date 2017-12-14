@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseCalc.Core", "EnterpriseCalc\EnterpriseCalc.Core.csproj", "{4103C84E-FC75-4733-A7A9-FC788B385367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Domain", "01 Domain", "{796181CF-B871-4D58-91CD-63E6F24D96CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Service Interfaces", "02 Service Interfaces", "{44E22EC9-86BD-4CE1-8EDD-F4EC3342CC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Services", "03 Services", "{201A71D7-1FAD-4099-B92A-E83A48341D56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Infrastructure", "04 Infrastructure", "{BB001133-594E-44D7-93EA-124DA44B9AF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 UI", "05 UI", "{443985AB-2A48-4017-85BF-ED13716C47A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Tests", "06 Tests", "{03A370F4-BA4C-4A72-9D32-742EBC255142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseCalc.Interfaces", "EnterpriseCalc.Interfaces\EnterpriseCalc.Interfaces.csproj", "{589B656C-76E7-4C6D-838F-9A10EAD53739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseCalc.Calculate.Service", "EnterpriseCalc.Calculate.Service\EnterpriseCalc.Calculate.Service.csproj", "{BE8F331E-D578-45BC-B29B-D02ADF546ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseCalc.CalculatorScheduler", "EnterpriseCalc.CalculatorScheduler\EnterpriseCalc.CalculatorScheduler.csproj", "{192A5749-6FA8-45F2-B707-8084E191A234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseCalc.Calculate.Service.Tests", "EnterpriseCalc.Calculate.Service.Tests\EnterpriseCalc.Calculate.Service.Tests.csproj", "{5A7CACFE-934E-44CA-BB2E-820AB8E92652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4103C84E-FC75-4733-A7A9-FC788B385367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4103C84E-FC75-4733-A7A9-FC788B385367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4103C84E-FC75-4733-A7A9-FC788B385367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4103C84E-FC75-4733-A7A9-FC788B385367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589B656C-76E7-4C6D-838F-9A10EAD53739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589B656C-76E7-4C6D-838F-9A10EAD53739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589B656C-76E7-4C6D-838F-9A10EAD53739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589B656C-76E7-4C6D-838F-9A10EAD53739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8F331E-D578-45BC-B29B-D02ADF546ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8F331E-D578-45BC-B29B-D02ADF546ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8F331E-D578-45BC-B29B-D02ADF546ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8F331E-D578-45BC-B29B-D02ADF546ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192A5749-6FA8-45F2-B707-8084E191A234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A5749-6FA8-45F2-B707-8084E191A234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A5749-6FA8-45F2-B707-8084E191A234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A5749-6FA8-45F2-B707-8084E191A234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7CACFE-934E-44CA-BB2E-820AB8E92652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7CACFE-934E-44CA-BB2E-820AB8E92652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7CACFE-934E-44CA-BB2E-820AB8E92652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7CACFE-934E-44CA-BB2E-820AB8E92652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4103C84E-FC75-4733-A7A9-FC788B385367} = {796181CF-B871-4D58-91CD-63E6F24D96CA}
+		{589B656C-76E7-4C6D-838F-9A10EAD53739} = {44E22EC9-86BD-4CE1-8EDD-F4EC3342CC7E}
+		{BE8F331E-D578-45BC-B29B-D02ADF546ECE} = {201A71D7-1FAD-4099-B92A-E83A48341D56}
+		{192A5749-6FA8-45F2-B707-8084E191A234} = {BB001133-594E-44D7-93EA-124DA44B9AF3}
+		{5A7CACFE-934E-44CA-BB2E-820AB8E92652} = {03A370F4-BA4C-4A72-9D32-742EBC255142}
+	EndGlobalSection
+EndGlobal
